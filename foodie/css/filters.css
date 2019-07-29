@@ -1,0 +1,100 @@
+.header{
+  background-image: url("https://st3.depositphotos.com/1083268/19439/v/1600/depositphotos_194396786-stock-illustration-street-food-festival-menu-vintage.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-attachment: fixed;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: #f2f6e9;
+}
+/*--- navigation bar ---*/
+.navbar {
+  background:#6ab446;
+}
+/* .nav-link, */
+#size{
+  font-size: 30px;
+}
+.navbar-brand {
+  color: rgb(0, 0, 0);
+  font-family: 'Lobster', cursive;
+  float: none;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.overlay {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+.description {
+  left: 50%;
+  position: absolute;
+  top: 45%;
+  transform: translate(-50%, -55%);
+  text-align: center;
+}
+.description h1  {
+  color: #6ab446;
+}
+
+.description h2  {
+  color: #6ab446;
+}
+
+.description label {
+  color: #fff;
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+
+.enter{
+  font-size: 25px;
+  border-radius: 700px;
+  width: 150px;
+  background-color: #f2f6e9;
+  color: black;
+}
+
+.cuisines{
+  font-size: 25px;
+  margin-left: 50px;
+}
+
+.address{
+  color: black;
+  width: 600px;
+  border-radius: 20px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: none;
+  background-color: #fff;
+  color: black;
+  font-size:18px;
+}
+.select{
+  font-size: 20px;
+}
+
+.blue{
+  background-color: rgb(35, 63, 247, 0.7);
+  height: 300px;
+  width: 700px;
+  border-radius: 20px;
+}
+.blue2{
+  padding-top: 15px;
+  background-color: rgb(35, 63, 247, 0.7);
+  height: 70px;
+  width: 705px;
+  border-radius: 20px;
+}

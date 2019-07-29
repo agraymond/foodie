@@ -1,0 +1,82 @@
+<html>
+
+<head>
+  <title>Filters</title>
+  <link rel="stylesheet" href="css/filters.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-md">
+    <a id="size" class="navbar-brand" href="/">Foodie</a>
+
+    <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="main-navigation">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#"></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"></a>
+        </li>
+      </ul>
+    </div>
+
+  </nav>
+<header class="page-header header container-fluid">
+  <div class="overlay">
+
+    <div class="description">
+      <div class="blue">
+      <h1> What are you feeling today?</h1>
+
+      <form method="post" action="/restaurants_nearby">
+
+        <div id="cuisines">
+          <label><input class="cuisines" type="radio" name="cuisine" value="Chinese"> Chinese</label>
+          <label><input class="cuisines" type="radio" name="cuisine" value="Mexican"> Mexican</label>
+          <label><input class="cuisines" type="radio" name="cuisine" value="Italian"> Italian</label>
+          <label><input class="cuisines" type="radio" name="cuisine" value="Mediterranean"> Mediterranean</label>
+          <label><input class="cuisines" type="radio" name="cuisine" value="Indian"> Indian</label>
+          <label><input class="cuisines" type="radio" name="cuisine" value="American"> American</label>
+          <label><input class="cuisines" type="radio" name="cuisine" value="Vegan"> Vegan</label>
+        </div>
+
+        <h2> Enter your location </h2>
+        <div id="rightAddress">
+          <input class="address" type="text" name="user_address" placeholder="1234 Example Street"> </input>
+        </div>
+        <br>
+
+        <select class="select" name="miles">
+          <option value="" disabled="disabled" selected="selected">How many miles do you want to drive?</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="5">5</option>
+          <option value="10">10</option>
+        </select>
+</div>
+        <br>
+
+        <div class="blue2">
+        <button class="enter" type="submit"> Enter </button>
+      </div>
+
+      </form>
+
+    </div>
+  </div>
+</header>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
+</body>
+
+</html>

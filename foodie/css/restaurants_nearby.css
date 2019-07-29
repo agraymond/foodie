@@ -1,0 +1,93 @@
+body {
+  /* padding: 0; */
+  margin: 0;
+  /* background: #f2f6e9; */
+  background-image: url("https://st3.depositphotos.com/1083268/19439/v/1600/depositphotos_194396786-stock-illustration-street-food-festival-menu-vintage.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-attachment: fixed;
+}
+
+.navbar {
+  background:#6ab446;
+}
+#size{
+  font-size: 30px;
+}
+.navbar-brand {
+  color: rgb(0, 0, 0);
+  font-family: 'Lobster', cursive;
+  float: none;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.overlay {
+  /* position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0; */
+  background: rgba(0, 0, 0, 0.6);
+}
+
+
+
+
+
+#my_form{
+  display: flex;
+  flex-wrap: wrap;
+}
+.parent{
+  content: "";
+  flex-wrap: wrap;
+  clear: both;
+  display: flex;
+  color: #6ab446;
+}
+.child {
+  flex: 1 21%;
+  height: 150px;
+  margin:50px;
+}
+.test{
+  text-align: center;
+}
+.blue{
+  background-color: rgb(35, 63, 247, 0.7);
+  /* height: 70px;
+    width: 120px; */
+  border-radius: 20px;
+}
+.blue2{
+  background-color: rgb(35, 63, 247, 0.7);
+  /* height: 300px;*/
+  /* width: 700px; */
+  border-radius: 20px;
+  color: #6ab446;
+  text-align: center;
+}
+
+.blueRating{
+  background-color: rgb(35, 63, 247, 0.7);
+  width: 80px;
+  border-radius: 20px;
+}
+.button {
+     background-color: #000000;
+     color: #FFFFFF;
+     padding: 10px;
+     border-radius: 10px;
+     -moz-border-radius: 10px;
+     -webkit-border-radius: 10px;
+     margin:10px
+ }
+
+ .small-btn {
+     width: 50px;
+     height: 25px;
+ }
